@@ -1,0 +1,498 @@
+@charset "UTF-8";
+
+
+article, aside, footer, head, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+/* Title of the page*/
+h1.banner{
+  background-color:#CEE3F6;
+  color: black;
+  padding: 10px;
+  font-size: 50px;
+  font-family: Verdana, sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  line-height: 35px; /*espacamento entre linhas*/
+  margin: 0;
+}
+
+/* Define the sub-header style */
+subheader.sb{
+    padding: 0px;  /* altura da barra */
+    margin: 0;
+    font-family: Verdana, Sans-serif;
+	font-size: 19px;
+	font-variant: normal;	
+	line-height: 30px;
+}
+
+/***********MAIN MENU ***/
+/* Define the style of the main menu */
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+    background-color:#6495ED;
+}
+
+/* Format the text style of the main menu */
+li.l1{
+    float: left;
+    display: inline;
+    margin-left: 0px;
+    margin-right: 2px;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: sans-serif;
+	border-right: 1px solid #bbb;
+}
+
+/* Format the text style of the main menu */
+li.l1 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 6px 27px;  /* altura da barra */
+    text-decoration: none;
+}
+
+/* the last item of the menu */
+li:last-child {
+    border-right: none;
+}
+
+/* Menu changes the color according to the mouse movement */
+li.l1 a:hover {
+    background-color:lightslategray;
+}
+
+/***********/
+
+
+/* Define the body of the page */
+body {
+  width: 815px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+hr {/* horizontal bar */
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+	border-color: gainsboro;
+}
+
+/****************** TABLE *********************/
+/* Table */
+table {
+	display: table-row;
+	border-collapse: collapse;
+	border-style: outset;
+	border-width: 0px;
+}
+
+tr.t1, td.t1 {
+	width: 370px;
+	height: auto;
+    padding: 5px;
+	border-style:hidden;
+	/*background-color:#e6e6e6;	*/
+	background-color:#F5F5F5;
+}
+
+tr.t2, td.t2 {
+	width: 450px;
+	height: 450px;
+    padding: 10px;
+	border-style:hidden;
+	/*background-color: #e6e6e6;*/
+	background-color:#F5F5F5;
+	
+}
+
+tr.tm, td.tm {
+	background-color:white;
+	width=20px;
+	height: 450px;
+	padding: 3px;
+
+}
+
+tr.ml, td.ml {
+	background-color:#white;
+	border-style:hidden;
+
+}
+
+/****************** TABLE *********************/
+
+
+/****************** MAIN TEXT *********************/
+
+/* Main text of the page */
+section {
+  background-color: darkgray;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+
+/* list on the main text */
+li.l2{
+    margin-left: 30px;
+    margin-right: 5px;
+    font-size: 15px;
+    font-family: Georgia,Times,Times New Roman,serif;
+	list-style-position: inside;	
+	line-height: 25px; /*espacamento entre linhas*/
+}
+
+h10 {/*text describe the page */
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 25px; /*espacamento entre linhas*/
+	margin-left: 30px;
+
+}
+
+h11 {/* text under the photo*/
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 20px; /*espacamento entre linhas*/
+}
+
+/****************** MAIN TEXT *********************/
+
+
+aside{
+	font-family: Arial,Times,Times New Roman,serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: small-caps;
+
+}
+
+psec{ /*publication year*/
+	font-family: Verdana,Times,Times New Roman,serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant:small-caps;
+	font-weight: 400;
+	line-height: 18px;
+	font-weight: bold;
+	color: #676769 ;
+	margin-left: -30px;
+}
+
+/****** PUBLICATIONS ******/
+li.lpub{
+    margin-left: 0px;
+    margin-right: 0px;
+	font-family: Verdana,Times,Times New Roman,serif;
+	list-style-position:outside;
+	font-size: 13px;
+}
+
+me {
+	font-family: Verdana,Times,Times New Roman,serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+	color:cornflowerblue;
+}
+
+names {
+	font-family: Verdana,Times,Times New Roman,serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+	color:black;
+}
+
+jtitle{
+	font-family: Verdana,Times,Times New Roman,serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+	color:brown;
+	font-weight: bold;
+}
+
+jjournal {
+	font-family: Verdana,Times,Times New Roman,serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+	font-weight: bold;
+	color:darkblue
+
+}
+
+subm {
+	font-family: Verdana,Times,Times New Roman,serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+	font-weight:100;
+	color:gray;
+
+}
+
+
+jlink{
+	font-family: Verdana,Times,Times New Roman,serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+	color:cornflowerblue;
+}
+
+/************ RESEARCH ***********/
+
+rsec{ /*publication year*/
+	font-family: Verdana,Times,Times New Roman,serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant:small-caps;
+	font-weight: 400;
+	line-height: 18px;
+	font-weight: bold;
+	color: #676769 ;
+	margin-left: 0px;
+	text-align:left;
+}
+
+rseclarge{ /*publication year*/
+	font-family: Verdana,Times,Times New Roman,serif;
+	font-size: 25px;
+	font-style: normal;
+	font-variant:small-caps;
+	font-weight: 400;
+	line-height: 18px;
+	font-weight: bold;
+	color: black;
+	margin-left: 0px;
+	text-align:left;
+}
+
+ptext.text {
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	line-height: 25px; /*espacamento entre linhas*/
+	text-align: justify;
+	display:block;
+	margin-left: 15px;
+	margin-right: 10px;
+	text-indent: 50px; /* espaco da primeira linha*/
+}
+
+prefs.refs {
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	line-height: 25px; /*espacamento entre linhas*/
+	text-align: justify;
+	display:block;
+	margin-left: 10px;
+	text-indent: 0px; /* espaco da primeira linha*/
+}
+
+
+/**** FIGURE ****/
+
+figure {
+	/*background: #b2b2b2;*/
+	border: thin silver solid;
+	display: block;
+   	float: right;
+   	padding: 10px;
+   	margin: 10px 10px 10px 0;
+   	text-align: center;
+	font-style: italic;
+	font-size: 13px;
+	font-family: Georgia,Times,Times New Roman,serif;
+	margin-left: 10px; 
+	margin-right: 10px;		
+}
+
+figcaption{
+	display:block;
+	vertical-align: bottom;
+	padding-left: 4px;
+}
+
+
+
+/***************** ABOUT ***********/
+
+li.cv{
+    margin-left: 30px;
+    margin-right: 0px;
+    font-size: 15px;
+    font-family: Georgia,Times,Times New Roman,serif;
+	list-style-position: outside;	
+	line-height: 25px; /*espacamento entre linhas*/
+}
+
+figure.fig {
+	/*background: #b2b2b2;*/
+	border: thin silver solid;
+	display: block;
+   	float: right;
+   	padding: 10px;
+   	margin: 10px 10px 10px 0;
+   	text-align: center;
+	font-style: italic;
+	font-size: 13px;
+	font-family: Georgia,Times,Times New Roman,serif;
+	margin-left: 10px; 
+	margin-right: 10px;		
+}
+
+
+/******* GROUP ********/
+
+tr.std, td.std {
+	padding: 5px;
+	border-style:hidden;
+	/*background-color:#e6e6e6;	*/
+	background-color:white;
+	align-content: left;
+}
+
+
+figure.student {
+	border: thin silver solid;
+	display: block;
+   	float: right;
+   	padding: 0px;
+   	margin: 0px 0px 0px 0px;
+   	text-align: center;
+	font-style: italic;
+	font-size: 13px;
+	font-family: Georgia,Times,Times New Roman,serif;
+	margin-left: 0px; 
+	margin-right: 0px;
+}
+
+
+/************* TEACHING *********/
+li.teach{
+    margin-left: 30px;
+    margin-right: 5px;
+    font-size: 15px;
+    font-family: Georgia,Times,Times New Roman,serif;
+	list-style-position: outside;	
+	line-height: 25px; /*espacamento entre linhas*/
+	
+}
+
+
+
+
+/*
+
+
+
+
+aside {
+  background-color: #bbbbbb;
+  width: 270px;
+  float: right;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+
+footer {
+  clear: both;
+  background-color: #20416c;
+  color: white;
+  padding: 5px 20px;
+}
+
+*/
+
+
+
+
+
+
+
+/*
+
+h3 {
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+}
+*/
